@@ -46,7 +46,6 @@ body {
 
 .conteudo {
      margin-bottom: 10px;
-     
 }
 
 .conteudo-principal {
@@ -58,6 +57,29 @@ body {
     padding: 40px 0;
 }
 
+.conteudo-principal-login {
+    background-color: #2F2325;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.conteudo-principal-login-label {
+    color: #ECD6C4;
+    font-size: 24px;
+    margin: 5px 10px;    
+}
+
+.conteudo-principal-login-input {
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    background-color: #ECD6C4;
+    margin: 5px 10px;
+    font-size: 18px;
+}
+
 .conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
@@ -67,26 +89,28 @@ body {
 .conteudo-principal-escrito-titulo {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 64px;
     color: #FFF2E7;
 }
 
 .conteudo-principal-escrito-subtitulo {
     color: #ECD6C4;
-    font-size: 14px;
 }
 
-.conteudo-principal-escrito-botao {
+.conteudo-principal-login-submit {
+    margin-top: 20px;
     background-color: #F6D76F;
     border-radius: 20px;
     border: solid 4px;
-    width: 500px;
-    height: 70px;
+    width: 200px;
+    height: 60px;
     font-size: 20px;
     box-shadow: 4px 5px 4px 0 rgba(0, 0, 0, 0.5);
+    align-self: center;
+
 }
 
-.conteudo-principal-escrito-botao:hover {
+.conteudo-principal-login-submit:hover {
     color: whitesmoke;
 }
 

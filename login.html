@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="conteudo.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
-    <title>Site de Filosofia | Conteúdo</title>
+    <title>Site de Filosofia | Home</title>
 </head>
 <body>
     <header class="cabecalho">
@@ -20,19 +20,17 @@
     </header>
     <main class="conteudo">
         <section class="conteudo-principal">
-            <div class="conteudo-principal-escrito">
-                <h1 class="conteudo-principal-escrito-titulo">Qual conteúdo você gostaria de estudar?</h1>
-                <h2 class="conteudo-principal-escrito-subtitulo">Escolha uma das opções e poderá descobrir tudo sobre o tema!</h2>
-                <button class="conteudo-principal-escrito-botao">Conceitos básicos</button>
-                <button class="conteudo-principal-escrito-botao">Filosofia Antiga</button>
-                <button class="conteudo-principal-escrito-botao">Filosofia Medieval</button>
-                <button class="conteudo-principal-escrito-botao">Filosofia Moderna</button>
-                <button class="conteudo-principal-escrito-botao">Filosofia Contemporânea</button>
-                
-            </div>
+           
+            <form class="conteudo-principal-login" action="">
+                <label class="conteudo-principal-login-label" for="user">Usuário</label>
+                <input class="conteudo-principal-login-input" type="text" id="user" placeholder=" Digite o nome de usuário...">
+                <label class="conteudo-principal-login-label" for="password">Senha</label>
+                <input class="conteudo-principal-login-input" type="password" placeholder=" Digite a senha...">
+                <input class="conteudo-principal-login-submit" type="submit" value="Entrar">
+            </form>
+            
             <img class="conteudo-principal-imagem" src="images/image_filosofia.png" alt="Letra grega fi">             
         </section>
-        
         <section class="conteudo-secundario">
             <img class="conteudo-secundario-imagem" src="images/images_barra/platao.png" alt="Pintura de Platão">
             <img class="conteudo-secundario-imagem" src="images/images_barra/aristoteles.png" alt="Escultura de Aristóteles">
