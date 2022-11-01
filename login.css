@@ -77,8 +77,10 @@ body {
     width: 300px;
     background-color: #ECD6C4;
     margin: 5px 10px;
-    font-size: 18px;
+    font-size: 14px;
+    padding-left: 10px;
 }
+
 
 .conteudo-principal-escrito {
     display: flex;
@@ -95,6 +97,18 @@ body {
 
 .conteudo-principal-escrito-subtitulo {
     color: #ECD6C4;
+}
+
+.conteudo-principal-login-termos {
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+}
+
+.conteudo-principal-login-termos-label {
+    color: #ECD6C4;
+    font-size: 14px;
+    margin-left: 5px;
 }
 
 .conteudo-principal-login-submit {
