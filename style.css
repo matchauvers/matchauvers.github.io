@@ -100,6 +100,7 @@ body {
 
 .conteudo-secundario-imagem {
     width: 20%;
+    height: ;
 }
 
 .rodape {
@@ -112,4 +113,29 @@ body {
     font-size: 64px;
     text-align: center;
     color: whitesmoke;
+}
+
+@media screen and (max-width: 480px) {
+
+    .cabecalho {
+        justify-content: auto;
+    }
+
+    .cabecalho-imagem {
+        width: 30px;
+    }
+
+    .cabecalho-menu {
+        gap: 15px;
+    }
+
+    .conteudo-principal {
+       flex-direction: column;
+       gap: 30px;
+    }
+
+    .conteudo-principal-escrito {
+        text-align: center;
+        align-items: center;
+    }
 }
